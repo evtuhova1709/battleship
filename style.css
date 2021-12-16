@@ -1,0 +1,67 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    font-weight: 100px;
+    
+    font-size: 20px;
+    line-height: 1.4;
+    color: rgb(5, 9, 235);
+    background-color: rgb(236, 174, 221);
+}
+
+#zoneGame{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 15px;
+}
+#zoneGame .pczoneGame, #zoneGame .userzoneGame{
+    width: 50%;
+    float:left;
+    margin: 0 0 15px 0;
+    padding:0;
+    display: block;
+    margin-bottom: 50px;
+}
+#zoneGame .gameField{
+    margin: 15px 80px 30px 0;
+    display: block;
+    padding:0;
+}
+#zoneGame .gameField div{
+    margin: -1px;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #fcfcfc;
+    border: 1px solid #070707;
+    text-align: center;
+    color: #070707;
+}
+#zoneGame .gameField div .badge{
+    font-size: 6em;
+    color: #F44336;
+}
+#zoneGame .gameField .ship{
+    background-color: #020202;
+}
+#zoneGame .btn{
+  position: relative;
+  left: 47%;
+  transform: translate(-50%, 400%);
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  border-radius: 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  transition: .5s;
+}
